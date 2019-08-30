@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 10</title>
+</head>
+<body>
+    <form action="ex10.php" method="post">
+        <div>
+            <label for="cargo">Selecione o cargo do funcionário</label>
+            <select name="cargo" id="cargo">
+                <option value="-1">Selecione</option>
+                <option value="101">Gerente</option>
+                <option value="102">Engenheiro</option>
+                <option value="103">Técnico</option>
+                <option value="104">Não categorizado</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <label for="salario">Digite o salário: </label>
+            <input type="number" name="salario" id="salario" step="0.01">
+        </div>
+        <div>
+            <input type="submit" value="OK">
+        </div>
+    </form>
+</body>
+</html>
